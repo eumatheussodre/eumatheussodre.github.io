@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMbDSfUisojIBMRq0s1BYs0g0W4tS4JrI8YTAPV" crossorigin="anonymous">
 </head>
 <body>
+    <a href="#main" class="skip-link">Ir para o conteúdo</a>
     <header class="bg-primary text-white text-center py-5">
         <div class="container">
             <h1>Matheus Sodré</h1>
@@ -18,12 +19,14 @@
                     <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#experiencia">Experiência</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#certificacoes">Certificações</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     
+    <main id="main">
     <section id="sobre" class="container my-5">
         <h2 class="text-center mb-4">Sobre Mim</h2>
         <p class="text-center">Profissional de Quality Assurance com 1 ano de experiência em testes manuais e automatizados. Especializado em garantir a qualidade de software através de metodologias ágeis e ferramentas de automação de testes.</p>
@@ -34,7 +37,7 @@
         <div class="card mb-4">
             <div class="card-body">
                 <h3 class="card-title">ZENVIA</h3>
-                <p class="card-text"><strong>Quality Assurance Assitant</strong></p>
+                <p class="card-text"><strong>Quality Assurance Assistant</strong></p>
                 <p class="card-text">06/2023 - Presente</p>
                 <ul>
                     <li>Desenvolvimento e execução de planos de testes manuais e automatizados.</li>
@@ -47,7 +50,7 @@
         <div class="card mb-4">
             <div class="card-body">
                 <h3 class="card-title">SouJunior</h3>
-                <p class="card-text"><strong>Quality Assurance Analisty</strong></p>
+                <p class="card-text"><strong>Quality Assurance Analyst</strong></p>
                 <p class="card-text">01/2023 - 10/2023</p>
                 <ul>
                     <li>Criação de casos de teste detalhados e execução de testes manuais.</li>
@@ -67,7 +70,7 @@
             <div class="col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title"><a href="https://github.com/eumatheussodre/Projetos-em-SeleniumJava" target="_blank">Projetos em Selenium em Java</a></h3>
+                        <h3 class="card-title"><a href="https://github.com/eumatheussodre/Projetos-em-SeleniumJava" target="_blank" rel="noopener noreferrer">Projetos em Selenium em Java</a></h3>
                         <p class="card-text">Foi realizado o desenvolvimento de alguns projetos em Selenium</p>
                     </div>
                 </div>
@@ -75,7 +78,7 @@
             <div class="col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title"><a href="https://github.com/eumatheussodre/Projetos-Robot" target="_blank">Projetos em Robot Framework</a></h3>
+                        <h3 class="card-title"><a href="https://github.com/eumatheussodre/Projetos-Robot" target="_blank" rel="noopener noreferrer">Projetos em Robot Framework</a></h3>
                         <p class="card-text">Foi realizado o desenvolvimento de alguns projetos em Robot Framework</p>
                     </div>
                 </div>
@@ -95,7 +98,7 @@
                             <ul>
                                 <li>Automatização de testes manuais e automatizados (Cypress, Selenium)</li>
                                 <li>Testes de regressão, aceitação, acessibilidade</li>
-                                <li>Metodologias ageis e ferramentas de automação de testes</li>
+                                <li>Metodologias ágeis e ferramentas de automação de testes</li>
                                 <li>Teste de API</li>
                             </ul>
                         </p>
@@ -126,12 +129,13 @@
     <section id="contato" class="container my-5">
         <h2 class="text-center mb-4">Contato</h2>
         <p class="text-center"><i class="fas fa-envelope"></i> Email: <a href="mailto:matheusssodre98@gmail.com">matheusssodre98@gmail.com</a></p>
-        <p class="text-center"><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/eumatheussodre/" target="_blank">linkedin.com/in/eumatheussodre/</a></p>
-        <p class="text-center"><i class="fab fa-github"></i> GitHub: <a href="https://github.com/eumatheussodre" target="_blank">github.com/eumatheussodre</a></p>
+        <p class="text-center"><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/eumatheussodre/" target="_blank" rel="noopener noreferrer">linkedin.com/in/eumatheussodre/</a></p>
+        <p class="text-center"><i class="fab fa-github"></i> GitHub: <a href="https://github.com/eumatheussodre" target="_blank" rel="noopener noreferrer">github.com/eumatheussodre</a></p>
     </section>
     
+    </main>
     <footer class="bg-primary text-white text-center py-3">
-        <p>&copy; 2024 - Matheus Sodré</p>
+        <p>&copy; <span id="ano"></span> - Matheus Sodré</p>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
